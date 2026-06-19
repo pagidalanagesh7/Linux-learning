@@ -188,9 +188,11 @@ echo
 
 ---
 
-## 🚧 Day 4 — Process Management & Monitoring (Coming Soon)
+## 🚧 ## ✅ Day 4 — Process Management & Monitoring
 
-### Topics Planned
+### Topics Covered
+
+#### Process Management
 
 ```bash
 ps
@@ -202,12 +204,12 @@ fg
 kill
 killall
 pkill
+nohup
 nice
 renice
-nohup
 ```
 
-### Monitoring Commands
+#### System Monitoring
 
 ```bash
 uptime
@@ -217,28 +219,36 @@ iostat
 sar
 ```
 
+### Concepts Learned
+
+* Process vs Program
+* PID & PPID
+* Foreground & Background Processes
+* Process Priorities
+* Zombie Process
+* Orphan Process
+* System Resource Monitoring
+
 ### Interview Questions
 
 * Difference between Process and Program?
-* Difference between PID and PPID?
-* What happens when a process is killed?
+* What is PID and PPID?
 * Difference between kill, killall and pkill?
 * What is Zombie Process?
 * What is Orphan Process?
-* How to find high CPU consuming process?
+* How to identify high CPU or memory consuming processes?
 
----
+### Skills Gained
 
-# 🎯 Target Audience
+✔ Process Management
 
-* Linux Beginners
-* DevOps Engineers
-* Cloud Engineers
-* System Administrators
-* SRE Engineers
-* Interview Preparation Candidates
+✔ Process Troubleshooting
 
----
+✔ Resource Monitoring
+
+✔ Linux Performance Analysis
+
+✔ Production Server Monitoring
 
 # 🛠️ Prerequisites
 
@@ -254,23 +264,6 @@ sar
 * Understand Real-Time Production Concepts
 * Prepare for DevOps Interviews
 * Build Strong Linux Administration Skills
-
----
-
-# 🚀 Upcoming Topics
-
-* Process Management
-* Package Management
-* Networking
-* Disk Management
-* Users & Groups
-* Shell Scripting
-* Systemd Services
-* Log Management
-* SSH
-* Cron Jobs
-* Linux Troubleshooting
-* Advanced Administration
 
 ---
 
