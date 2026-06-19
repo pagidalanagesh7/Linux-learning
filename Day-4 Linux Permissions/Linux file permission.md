@@ -14,7 +14,7 @@
 
 ---
 
-# UMASK (User Mask)
+# 1. UMASK (User Mask)
 
 UMASK determines the default permissions for newly created files and directories.
 
@@ -146,7 +146,7 @@ Existing files/directories will NOT change.
 
 ---
 
-# Understanding File Permissions
+# 2. Understanding File Permissions
 
 Linux permissions consist of:
 
@@ -212,7 +212,7 @@ Permissions
 
 ---
 
-# CHMOD
+# 3. CHMOD
 
 Change file or directory permissions.
 
@@ -350,7 +350,7 @@ Shows changes performed.
 
 ## Interview Question
 
-### User has Write permission but cannot open file?
+### 1. User has Write permission but cannot open file?
 
 Because:
 
@@ -370,7 +370,7 @@ Can modify but cannot read.
 
 ---
 
-## Difference Between
+## 2. Difference Between
 
 ### chmod 400 file.txt
 
@@ -401,7 +401,7 @@ After  : rwxr-xr--
 
 # Directories
 
-### Change Parent Directory Only
+### 1. Change Parent Directory Only
 
 ```bash
 chmod 444 DevOps/
@@ -413,7 +413,7 @@ Subdirectories remain unchanged.
 
 ---
 
-### Add Execute
+### 2. Add Execute
 
 ```bash
 chmod ugo+x DevOps/
@@ -421,7 +421,7 @@ chmod ugo+x DevOps/
 
 ---
 
-### Recursive Change
+### 3. Recursive Change
 
 ```bash
 chmod -R 444 DevOps/
@@ -437,7 +437,7 @@ Changes:
 
 ## Interview Question
 
-### Difference
+### 1. Difference
 
 ```bash
 chmod 777 file
@@ -459,7 +459,7 @@ Adds permissions without removing existing ones.
 
 ---
 
-# CHOWN
+# 5. CHOWN
 
 (Change Owner)
 
@@ -523,7 +523,7 @@ Stays in current user's working directory.
 
 ---
 
-# CHGRP
+# 6. CHGRP
 
 (Change Group)
 
@@ -563,7 +563,7 @@ chown ec2-user:ec2-user DevOps
 
 ---
 
-# FILE Command
+# 7. FILE Command
 
 Used to identify file type.
 
@@ -586,7 +586,7 @@ directory
 
 ---
 
-# DIFF Command
+# 8. DIFF Command
 
 Compare two files line by line.
 
@@ -604,7 +604,7 @@ Shows differences.
 
 ---
 
-# ECHO Command
+# 9. ECHO Command
 
 Print text to terminal.
 
