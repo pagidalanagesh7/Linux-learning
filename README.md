@@ -188,55 +188,31 @@ echo
 
 ---
 
-## 🚧 ## ✅ Day 4 — Process Management & Monitoring
+## 🚧 Linux Mastery Series – Day 4
 
 ### Topics Covered
 
-#### Process Management
+* UMASK
+* File Permissions Basics
+* CHMOD
+* Directory Permissions
+* CHOWN
+* CHGRP
+* FILE Command
+* DIFF Command
+* ECHO Command
 
-```bash
-ps
-top
-htop
-jobs
-bg
-fg
-kill
-killall
-pkill
-nohup
-nice
-renice
-```
+### Key Learnings
 
-#### System Monitoring
+✅ Understanding Linux file and directory permissions
+✅ Managing permissions using `chmod`
+✅ Changing ownership with `chown` and groups with `chgrp`
+✅ Working with UMASK and default permissions
+✅ Comparing files using `diff`
+✅ Identifying file types with `file`
+✅ Printing output using `echo`
 
-```bash
-uptime
-free
-vmstat
-iostat
-sar
-```
-
-### Concepts Learned
-
-* Process vs Program
-* PID & PPID
-* Foreground & Background Processes
-* Process Priorities
-* Zombie Process
-* Orphan Process
-* System Resource Monitoring
-
-### Interview Questions
-
-* Difference between Process and Program?
-* What is PID and PPID?
-* Difference between kill, killall and pkill?
-* What is Zombie Process?
-* What is Orphan Process?
-* How to identify high CPU or memory consuming processes?
+🚀 A strong foundation in Linux permissions is essential for DevOps, Cloud, SRE, and System Administration roles.
 
 ### Skills Gained
 
