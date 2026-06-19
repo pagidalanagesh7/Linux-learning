@@ -399,7 +399,7 @@ After  : rwxr-xr--
 
 ---
 
-# Directories
+# 4. Directories
 
 ### 1. Change Parent Directory Only
 
