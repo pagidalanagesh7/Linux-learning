@@ -202,15 +202,15 @@ echo
 * DIFF Command
 * ECHO Command
 
-### Key Learnings
+## Key Learnings
 
-✅ Understanding Linux file and directory permissions
-✅ Managing permissions using `chmod`
-✅ Changing ownership with `chown` and groups with `chgrp`
-✅ Working with UMASK and default permissions
-✅ Comparing files using `diff`
-✅ Identifying file types with `file`
-✅ Printing output using `echo`
+- Understanding Linux file and directory permissions
+- Managing permissions using `chmod`
+- Changing ownership with `chown` and groups with `chgrp`
+- Working with UMASK and default permissions
+- Comparing files using `diff`
+- Identifying file types with `file`
+- Printing output using `echo`
 
 🚀 A strong foundation in Linux permissions is essential for DevOps, Cloud, SRE, and System Administration roles.
 
