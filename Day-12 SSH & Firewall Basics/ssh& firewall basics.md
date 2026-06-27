@@ -1,4 +1,4 @@
-````markdown
+
 # 🚀 Linux Series – Day 12: SSH & Firewall Basics
 
 > **Secure Remote Access & Linux Firewall Management**
@@ -55,7 +55,6 @@ Securely connects to a remote Linux server.
 
 ```bash
 ssh username@server-ip
-````
 
 ### Example
 
