@@ -55,12 +55,13 @@ Securely connects to a remote Linux server.
 
 ```bash
 ssh username@server-ip
+```
 
 ### Example
 
 ```bash
 ssh ubuntu@192.168.1.100
-
+```
 
 ### Common Options
 
